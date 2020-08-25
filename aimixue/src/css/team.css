@@ -1,0 +1,63 @@
+/* 版心 */
+.team-con{
+    width: 1230px;
+    margin: 0 auto;
+}
+#team .team_box  aside .box{
+    height:340px;
+    
+}
+#team .team_box .top{
+    color: #333;
+    font-size: 18px;
+    height: 50px;
+    background: url(../images/about-border_06.jpg)no-repeat left bottom;
+}
+#team .team_box .top em{
+    color: #989898;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+#team .team_box .letter{
+    padding-top: 10px;
+    font-size: 14px;
+    color: #666;
+   
+}
+#team .team_box  .b_img{
+    height: 259px;
+}
+#team .team_box  dl{
+    width: 189px;
+    height: 259px;
+    text-align: center;
+    float: left;
+    margin:0px 30px;
+    color: #333;
+    font-size: 14px;
+    overflow: hidden;
+}
+#team .team_box  dd{
+    padding-top:20px;
+}
+#team .team_box .box_l{
+    width:704px ;
+    min-height:337px ;
+    float: left;
+}
+
+.letter_lis{
+    margin-bottom: 30px;
+ } 
+
+#team .team_box aside .button{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#team .team_box aside .button i{
+    border: 1px solid #000;
+}
+#team .team_box aside .button strong{
+    margin: 0px 15px;
+}

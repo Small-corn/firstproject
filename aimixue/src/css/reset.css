@@ -1,0 +1,63 @@
+﻿@charset " utf-8";
+/* 清除margin、padding的默认样式 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{
+    margin: 0;
+    padding: 0;
+}
+/* 清除加粗的默认样式 */
+b,strong{
+    font-weight: normal;
+}
+/* 清除倾斜的默认样式 */
+em ,i{
+    font-style: normal;
+}
+/* 清除下划线 */
+a,u{
+    text-decoration: none;
+}
+/* 清除列表符号 */
+ ul,ol,li{
+     list-style-type: none;
+
+}
+/* 清除标题默认样式 */
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+/* 清除输入框聚焦颜色 */
+input{
+    outline: none;
+}
+/*  */
+body{
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.border-none{
+    border: none!important;
+    background: none!important;
+}
+img{
+    border: none;
+    display: block;
+}
+.clear_fix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clear_fix{
+    zoom:1;
+}
+
+.float_l{
+    float: left;
+}
+.float_r{
+    float:right;
+}
