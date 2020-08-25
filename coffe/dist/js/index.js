@@ -1,0 +1,1 @@
+"use strict";for(var dls=team.getElementsByTagName("dl"),i=0;i<dls.length;i++)dls[i].onclick=function(){for(var s=0;s<dls.length;s++)dls[s].className="";this.className="team-active"};

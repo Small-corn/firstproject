@@ -1,0 +1,88 @@
+@charset " utf-8";
+.product-con{
+    width: 1118px;
+    margin: 0 auto;
+}
+.product-con{
+    padding-left:65px;
+    min-height:600px;
+}
+.product_top{
+    padding-top: 36px;
+    height: 45px;
+    width: 992px;
+    border-bottom:1px solid #ccc ;
+    margin-bottom: 20px;
+}
+.product-con .product_top li{
+    float: left;
+}
+.product-con .product_top li a{
+    display: block; 
+    font-size: 16px;
+    color: #333;
+    width: 134px;
+    padding-left: 5px;
+    border-left: 1.2px solid #000;
+}
+.product-con .product_top li span{
+    color: #999;
+    font-size: 12px;
+}
+.product-con .product_top  p{
+    font-size: 14px;
+    color: #333;
+    width: 240px;
+}
+
+.product-con .product_top  p a{
+    font-size: 14px;
+    color: #999;
+}
+.product-con .product_bottom {
+    width: 992px;
+    margin-bottom: 50px;
+}
+.product_bottom .way dt{
+    width: 428px;
+    height: 505px;
+    margin-right: 25px;
+    float: left;
+}
+.product_bottom .way dt img{
+    width: 100%;
+    height: 100%;
+}
+.product_bottom .way dd{
+    padding-top: 15px;
+    width: 530px;
+    float: left;
+}
+.product_bottom .way dd p{
+    line-height: 30px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 25px;
+    text-indent: 2rem;
+    
+
+}
+/* js */
+.product-con .product_top ul .active a{
+    color: #000;
+    font-size: 18px;
+
+}
+
+aside{
+   display: none;
+}
+
+em{
+    display: none;
+    float: right;
+}
+
+.productactive{
+    display: block;
+}

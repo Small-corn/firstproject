@@ -1,0 +1,314 @@
+@charset " utf-8";
+.banner-con,.about-con,.product-con,.team-con,.contact-con{
+    width: 1118px;
+    margin: 0 auto;
+}
+#banner{
+    overflow: hidden;
+}
+/* banner部分 */
+.banner-con{
+    height: 600px;
+    position: relative;
+}
+
+.banner-con img{
+    position: absolute;
+    left: 50%;
+    margin-left:-960px;
+}
+
+/* case case-top公共部分 */
+.case-top{
+    height: 117px;
+    margin-bottom: 30px;
+    padding-top: 39px;
+    box-sizing: border-box;
+}
+.case-top h2{
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333;
+}
+.case-top p{
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    background: url(../images/liner-bg_12.png)no-repeat center;
+}
+.case-top span{
+    width: 32px;
+    height: 25px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    
+}
+.case-top span img{
+   width: 100%;
+   height: 100%;
+}
+
+/* <!-- case 关于我们 --> */
+#about{
+    background: url(../images/bg0.png)no-repeat 150px 200px ,url(../images/bg2.png)no-repeat 1400px 50px;
+    background-size: 20%;
+}
+.about-con{
+    min-height: 714px;
+    
+}
+.about-con .about-wrap .about_img{
+    width: 414px;
+    height: 500px;
+    float: left;
+}
+.about-con .about-wrap .about_img img{
+    width: 100%;
+    height: 100%;
+}
+.about-con .about-wrap  .about_letter{
+    width: 550px;
+    height: 500px;
+    float: left;
+    margin-left: 28px;
+}
+.about-con .about-wrap .about_letter h3{
+    width: 550px;
+    font-size: 16px;
+    color: #393438;
+    height: 75px;
+    padding-top: 20px;
+   
+}
+.about-con .about-wrap  .about_letter h3 span{
+    padding-bottom: 35px;
+    border-bottom: 2px solid #333;
+}
+.about-con .about-wrap  .about_letter p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #393438;
+    margin-bottom: 20px;
+    text-indent: 2rem;
+}
+/* <!-- gap 间隔条 --> */
+#gap{
+    height: 120px;
+    background: url(../images/gap_09.png)no-repeat center;
+    position: relative;
+}
+#gap span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height:120px;
+    text-align: center;
+    line-height: 120px;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.5) ;
+ 
+
+}
+/* <!-- case 产品介绍 --> */
+.product-con{
+    min-height: 679px;
+    overflow: hidden;
+    /* background: slateblue; */
+}
+.product-con  .product-wrap dl{
+    width: 323px;
+    margin-right:35px;
+    float: left;
+}
+.product-con  .product-wrap dl dt{
+    height: 302px;
+    position: relative;
+    overflow: hidden;
+}
+.product-con  .product-wrap dl dt span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:#4e4949 url(../images/search.png)no-repeat center;   
+    opacity: .6;
+    background-size: 10%;
+    display: none;
+    transition: 2s;
+  
+}
+.product-con  .product-wrap dt img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+    transition: 2s;
+  
+}
+.product-con  .product-wrap dl dt:hover img {
+    transform: scale(2);
+}
+.product-con  .product-wrap dl dt:hover .hover1{
+    display: block;
+}
+
+.product-con  .product-wrap dl dd h4{
+    height: 53px;
+    line-height: 53px;
+    color: #666;
+    font-size:24px ;
+    text-align: center;
+}
+.product-con  .product-wrap dl dd h4 span{
+    padding-bottom: 9px;
+    border-bottom: 1.2px solid #000;
+}
+.product-con  .product-wrap dl dd p{
+    color: #999;
+    line-height: 24px;
+    font-size:14px ;
+    text-align: center;
+}
+
+/* <!--  case  公司团队 --> */
+#team{
+    min-height: 787px;
+    background: url(../images/bg.png)no-repeat center;
+    background-size: 100%;
+    position: relative;
+}
+#team i{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: .92;
+}
+.team-con{
+    z-index: 99;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.team-con .team-wrap dl{
+    width: 242px;
+    float: left; 
+    margin-right: 30px;
+    cursor: pointer;
+}
+.team-con .team-wrap dl dt{
+    height:405px ;
+    overflow: hidden;
+}
+.team-con .team-wrap dl dt img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.team-con .team-wrap dl dd{
+    border: 1px solid #000;
+    height: 103px;
+}
+.team-con .team-wrap dl dd h4{
+    height: 52px;
+    line-height: 52px;
+    color: #000;
+    font-size:20px ;
+    text-align: center;
+}
+.team-con .team-wrap dl dd h4 span{
+    padding-bottom: 6px;
+    border-bottom: 1.2px solid #000;
+}
+.team-con .team-wrap dl dd p{
+    line-height: 22px;
+    color: #000;
+    font-size:14px ;
+    text-align: center;
+}
+
+.team-con .team-wrap .team-active dd h4{
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    font-size:20px ;
+    text-align: center;
+}
+.team-con .team-wrap .team-active dd h4 span{
+    padding-bottom: 6px;
+    border-bottom: 1.2px solid #fff;
+}
+.team-con .team-wrap .team-active dd p{
+    line-height: 22px;
+    color: #fff;
+    font-size:14px ;
+    text-align: center;
+}
+.team-con .team-wrap .team-active dd{
+    background: #3c3c3c;
+
+}
+.team-con .team-wrap .team-active dt img{
+    transform: scale(1.2);
+}
+/* <!-- case  联系我们 --> */
+.contact-con{
+    min-height: 547px;
+}
+.contact-con .contact-wrap .map{
+    width: 663px;
+    height:340px;
+    float: left;
+    margin-right: 46px
+}
+.contact-con .contact-wrap .map img{
+    width: 100%;
+    height: 100%;
+}
+.contact-con .contact-wrap .way dl{
+    height: 123px;
+    margin-bottom: 10px;
+}
+.contact-con .contact-wrap .way dl dt{
+    padding-top: 10px;
+    width:30px ;
+    height: 30px;
+    float: left;
+    margin-right:10px;
+}
+.contact-con .contact-wrap .way dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.contact-con .contact-wrap .way dl dd h5{
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #333;
+}
+.contact-con .contact-wrap .way dl dd h6{
+    height: 24px;
+    line-height: 24px;
+    font-size:14px;
+    color: #333;
+
+}
+.contact-con .contact-wrap .way dl dd p{
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #999;
+
+}
+/* 地图 */
+#allmap{ 
+    width: 663px;
+    height:340px;
+}

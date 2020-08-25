@@ -1,0 +1,1 @@
+"use strict";for(var headerC=document.getElementsByClassName("header-con")[0],p=headerC.getElementsByTagName("p")[0],as=p.getElementsByTagName("a"),i=0;i<as.length;i++)as[i].onclick=function(){document.getElementsByClassName("nav-active")[0].className="",this.className="nav-active"};

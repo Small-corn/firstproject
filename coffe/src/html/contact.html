@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/case.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?type=webgl&v=1.0&ak=aV8OrYVBZaGZyIToZiOPOMpAsWipUUUv"></script>
+</head>
+<body>
+     <!-- header -->
+     <header>
+        <div class="header-con">
+            <h1><img src="../images/logo.png" alt=""></h1>
+            <p class="float_l" >
+                <a  href="index.html">首页</a>
+                <a href="about.html">关于我们</a>
+                <a href="product.html">产品介绍</a>
+                <a href="team.html">我们团队</a>
+                <a  class="nav-active" href="contact.html">联系我们</a>
+            </p>
+        </div>
+    </header>
+    <!-- banner -->
+    <div id="banner">
+            <div class="pic"> 
+                  <img src="../images/about.ban.jpg" alt="">
+                  <img src="../images/公司简介img.jpg" alt="">
+                  <img src="../images/公司新闻中心ban.jpg" alt="">
+                  <img src="../images/公司历程ban.jpg" alt="">
+            </div>
+              <button><</button>
+              <button>></button>
+              <ul>
+                <li dy="0"class="banactive"></li>
+                <li dy="1"></li>
+                <li dy="2"></li>
+                <li dy="3"> </li>
+            </ul>
+            <p><i>Contact </i><i>联系我们 Us</i></p>
+    </div>
+    <!-- case 关于我们 -->
+    <div id="contact">
+        <div class="contact-con">
+            <div class="contact_top">
+               <ul class="float_l">
+                   <li><a href="">联系我们</a><span>Contact us</span></li>
+               </ul>
+                <p class="float_r"><span>当前位置</span> <a href="">>首页</a> <a href="">>关于我们></a><span>联系我们</span> </p>
+            </div>
+            <div class="contact_bottom">
+                <div class="contact_img"><div id="allmap"></div></div>
+                <div class="way clear_fix">
+                    <dl>
+                        <dt><img src="../images/phone.png" alt=""></dt>
+                        <dd class="float_l">
+                           <li><h5>咨询热线</h5><p>Information Hotline</p></li> 
+                           <li><h6>重庆：+86 023-867-7848</h6><p>(09：30~18：30 北京时间)</p></li> 
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/adress.png" alt=""></dt>
+                        <dd class="float_l">
+                           <li><h5>公司地址</h5><p>Company address</p></li> 
+                           <li><h6>地址：重庆大坪龙湖时代天街3号写字楼2407室</h6><p>(09：30~18：30 北京时间)</p></li> 
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/email.png" alt=""></dt>
+                        <dd class="float_l">
+                           <li><h5>公司邮箱</h5><p>E-mail</p></li> 
+                           <li><h6>邮箱：info@haitouglobal.com</h6><p>(09：30~18：30 北京时间)</p></li> 
+                        </dd>
+
+               </div>
+          </div>
+     </div>
+   </div>
+    <!-- footer 底部 -->
+    <footer>
+        <div class="footer-con">
+            <p>Copyright © 重庆duzu有限公司 | duzu备案号 33010602001878 号 版权所有：重庆戈登有限公司</p>
+            <h1><img src="../images/footerlogo.png" alt=""></h1>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        // GL版命名空间为BMapGL
+        // 按住鼠标右键，修改倾斜角和角度
+        var map = new BMapGL.Map("allmap");    // 创建Map实例
+        map.centerAndZoom(new BMapGL.Point(106.484756,29.53199),10);  // 初始化地图,设置中心点坐标和地图级别
+    </script>
+    <script src="../js/public.js"> </script>
+    <script src="../js/banner.js"></script>
+</body>
+</html>
